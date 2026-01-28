@@ -40,35 +40,34 @@ teknoloig yang saya gunankan disini adalah frontend React (vite), backend expres
 
 
 ##  Struktur Proyek
-
-web3-dapp-uas/
-├─ frontend/
-│  ├─ src/
-│  │  ├─ components/
-│  │  │  ├─ WalletConnect.jsx
-│  │  │  ├─ BalanceDisplay.jsx
-│  │  │  ├─ DonateForm.jsx
-│  │  │  └─ TransactionList.jsx
-│  │  ├─ App.jsx
-│  │  ├─ index.js
-│  │  ├─ App.css
-│  │  ├─ index.css
-│  │  └─ DonationABI.json
-│  └─ package.json
-│
-├─ backend/
-│    ├── routes/
-│    │   └── transactions.js
-│    ├── server.js
-│    ├── supabaseClient.js
-│    ├── DonationABI.json
-│    ├── package.json
-│    ├── package-lock.json
-│    └── node_modules/
-├─ smart-contracts/
-│  └─ DonationContract.sol
-│
-└─ README.md
+    web3-dapp-uas/
+    ├─ frontend/
+    │  ├─ src/
+    │  │  ├─ components/
+    │  │  │  ├─ WalletConnect.jsx
+    │  │  │  ├─ BalanceDisplay.jsx
+    │  │  │  ├─ DonateForm.jsx
+    │  │  │  └─ TransactionList.jsx
+    │  │  ├─ App.jsx
+    │  │  ├─ index.js
+    │  │  ├─ App.css
+    │  │  ├─ index.css
+    │  │  └─ DonationABI.json
+    │  └─ package.json
+    │
+    ├─ backend/
+    │    ├── routes/
+    │    │   └── transactions.js
+    │    ├── server.js
+    │    ├── supabaseClient.js
+    │    ├── DonationABI.json
+    │    ├── package.json
+    │    ├── package-lock.json
+    │    └── node_modules/
+    ├─ smart-contracts/
+    │  └─ DonationContract.sol
+    │
+    └─ README.md
 
 ## backend
     transactions.js
@@ -209,7 +208,7 @@ http://localhost:5173
 
 Nama: **(MOH NURUL LANJIB)**
 NIM: **(241111042)**
-Mata Kuliah: **Web3 / Blockchain Development**
+Mata Kuliah: **pemograman web**
 
 
 
