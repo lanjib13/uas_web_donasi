@@ -57,17 +57,60 @@ web3-dapp-uas/
 │  └─ package.json
 │
 ├─ backend/
-│  ├─ server.js
-│  ├─ supabaseClient.js
-│  ├─ routes/
-│  │  └─ transactions.js
-│  └─ package.json
-│
+│    ├── routes/
+│    │   └── transactions.js
+│    ├── server.js
+│    ├── supabaseClient.js
+│    ├── DonationABI.json
+│    ├── package.json
+│    ├── package-lock.json
+│    └── node_modules/
 ├─ smart-contracts/
 │  └─ DonationContract.sol
 │
 └─ README.md
 
+## backend
+    transactions.js
+    * digunakan untuk untuk mangambil data transaksi
+    * menyimpan transaksi ke database
+    * mengambil riwayat donasi
+    jadi file itu untuk jembatan antara frontend database dan blockchien
+
+    server.js
+    * Menghubungkan routes
+    * Menentukan port server
+    * menjalankan server express
+
+    supabaseClient.js
+    * Inisialisasi Supabase
+
+    DonationABI.json
+    * digunakan untuk interaksi dengan smart contract
+
+## frontend
+    WalletConnect.jsx
+    * digunakan untuk conect ke wallet
+    * mengammbil addres user
+
+    BalanceDisplay.jsx
+    * di gunakan untuk menampilkan saldo ETH
+
+    DonateForm.jsx
+    * tempat untuk donasi
+    * memanggil smart contract
+
+    TransactionList.jsx
+    * menampilkan histori donasi yang menggambil data dari supa base
+
+    App.jsx
+    untuk menggabungin semua componen
+
+    main.jsx
+    menghubungkan react dengan index.html
+
+    DonationABI.json
+    Interaksi langsung dengan smart contract via MetaMask
 
 
 ## Smart Contract
