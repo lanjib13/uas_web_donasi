@@ -206,9 +206,9 @@ http://localhost:5173
 
 
 
-Nama: **(MOH NURUL LANJIB)**
-NIM: **(241111042)**
-Mata Kuliah: **pemograman web**
+* Nama: **(MOH NURUL LANJIB)**
+* NIM: **(241111042)**
+* Mata Kuliah: **pemograman web**
 
 
 
