@@ -103,13 +103,13 @@ teknoloig yang saya gunankan disini adalah frontend React (vite), backend expres
     * menampilkan histori donasi yang menggambil data dari supa base
 
     App.jsx
-    untuk menggabungin semua componen
+    * untuk menggabungin semua componen
 
     main.jsx
-    menghubungkan react dengan index.html
+    * menghubungkan react dengan index.html
 
     DonationABI.json
-    Interaksi langsung dengan smart contract via MetaMask
+    * Interaksi langsung dengan smart contract via MetaMask
 
 
 ## Smart Contract
