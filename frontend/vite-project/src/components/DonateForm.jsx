@@ -43,7 +43,7 @@ export default function DonateForm({ onSuccess }) {
 
       setAmount("");
       if (onSuccess) onSuccess();
-      alert("Donasi berhasil 🎉");
+      alert("Donasi berhasil ");
     } catch (err) {
       console.error(err);
       alert("Donasi gagal");

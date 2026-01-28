@@ -1,4 +1,4 @@
-/* Layout Utama */
+
 .app-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -13,16 +13,15 @@
 .app-title {
   font-size: 2.8rem;
   font-weight: 800;
-  color: #111827; /* Dark Slate */
+  color: #111827;
   margin-bottom: 0.5rem;
 }
 
 .app-subtitle {
-  color: #6b7280; /* Muted Gray */
+  color: #6b7280; 
   font-size: 1.1rem;
 }
 
-/* Grid System */
 .dashboard-content {
   display: grid;
   grid-template-columns: 380px 1fr;
@@ -30,10 +29,10 @@
   align-items: start;
 }
 
-/* Card Styling - Clean White Look */
+
 .card {
   background: #ffffff;
-  border: 1px solid #e5e7eb; /* Border halus */
+  border: 1px solid #e5e7eb; 
   border-radius: 20px;
   padding: 2rem;
   margin-bottom: 1.5rem;
@@ -46,7 +45,7 @@
 }
 
 .section-label {
-  color: #2563eb; /* Royal Blue */
+  color: #2563eb; 
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -55,16 +54,16 @@
   display: block;
 }
 
-/* Responsif untuk Mobile */
+
 @media (max-width: 900px) {
   .dashboard-content {
     grid-template-columns: 1fr;
   }
 }
 
-/* Penyesuaian Tombol (Modern Clean) */
+
 button {
-  background: #2563eb !important; /* Blue Primary */
+  background: #2563eb !important;
   color: #ffffff !important;
   border: none !important;
   border-radius: 10px !important;
@@ -75,17 +74,17 @@ button {
 }
 
 button:hover {
-  background: #1d4ed8 !important; /* Darker Blue */
+  background: #1d4ed8 !important; 
   box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2) !important;
   transform: translateY(-1px);
 }
 
-/* Styling tambahan untuk List agar tetap bersih */
+
 .list-container {
-  padding: 0; /* Biar list menempel rapi di card */
+  padding: 0; 
 }
 
-/* Container Styling */
+
 .transaction-container {
   padding: 1rem;
 }
@@ -103,7 +102,7 @@ button:hover {
   margin: 0;
 }
 
-/* Table Styling */
+
 .table-wrapper {
   overflow-x: auto;
 }
@@ -131,7 +130,7 @@ button:hover {
   color: #374151;
 }
 
-/* Address & Badges */
+
 .address-cell {
   font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
@@ -157,7 +156,7 @@ button:hover {
   text-decoration: underline;
 }
 
-/* Small Refresh Button */
+
 .refresh-btn-small {
   background: #f3f4f6 !important;
   color: #4b5563 !important;
@@ -176,7 +175,7 @@ button:hover {
   font-style: italic;
 }
 
-/* Container Form */
+
 .donate-form-container {
   display: flex;
   flex-direction: column;
@@ -191,7 +190,7 @@ button:hover {
   margin-bottom: 0.5rem;
 }
 
-/* Input Styling */
+
 .input-wrapper {
   position: relative;
   display: flex;
@@ -201,7 +200,7 @@ button:hover {
 .donate-input {
   width: 100%;
   padding: 12px 16px;
-  padding-right: 60px; /* Ruang untuk teks ETH */
+  padding-right: 60px; 
   border: 2px solid #e5e7eb;
   border-radius: 12px;
   font-size: 1.1rem;
@@ -224,7 +223,6 @@ button:hover {
   pointer-events: none;
 }
 
-/* Button Styling */
 .donate-btn {
   width: 100%;
   padding: 14px !important;
@@ -248,7 +246,7 @@ button:hover {
   margin: 0;
 }
 
-/* Efek Spinner Sederhana */
+
 .spinner-text {
   display: flex;
   align-items: center;
@@ -275,7 +273,7 @@ button:hover {
   margin-bottom: 1rem;
 }
 
-/* Button Styling */
+
 .connect-btn-main {
   width: 100%;
   display: flex;
@@ -300,7 +298,7 @@ button:hover {
   height: 24px;
 }
 
-/* Status Connected Badge */
+
 .account-badge {
   display: flex;
   align-items: center;
@@ -327,7 +325,7 @@ button:hover {
   font-size: 0.9rem;
 }
 
-/* Container Saldo */
+
 .balance-card {
   background: linear-gradient(135deg, #f8faff 0%, #eff6ff 100%);
   border: 1px solid #dbeafe;
@@ -348,7 +346,7 @@ button:hover {
 .balance-value {
   font-size: 1.75rem;
   font-weight: 800;
-  color: #1e40af; /* Biru gelap */
+  color: #1e40af; 
   display: flex;
   align-items: baseline;
   gap: 6px;

@@ -3,7 +3,7 @@ import { supabase } from "../supabaseClient.js";
 
 const router = express.Router();
 
-// GET semua transaksi donasi
+
 router.get("/transactions", async (req, res) => {
   try {
     const { data, error } = await supabase
@@ -25,7 +25,6 @@ router.get("/transactions", async (req, res) => {
   }
 });
 
-// POST simpan donasi
 router.post("/donate", async (req, res) => {
   try {
     const { donor_address, amount_eth, tx_hash } = req.body;

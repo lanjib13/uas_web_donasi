@@ -27,8 +27,6 @@ function App() {
         <h1 className="app-title">Web Donasi Blockchain</h1>
         <p className="app-subtitle">Sistem Donasi Transparan & Aman</p>
       </header>
-
-      {/* Pembungkus baru agar rapi berjejer */}
       <div className="dashboard-content">
         <div className="left-panel">
           <div className="card wallet-info">

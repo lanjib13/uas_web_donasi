@@ -10,8 +10,7 @@ function BalanceDisplay({ account }) {
 
       try {
         const provider = new ethers.BrowserProvider(window.ethereum);
-        const bal = await provider.getBalance(account);
-        // Membatasi desimal agar tetap rapi di UI
+        const bal = await provider.getBalance(account);      
         const formattedBal = parseFloat(ethers.formatEther(bal)).toFixed(4);
         setBalance(formattedBal);
       } catch (err) {
@@ -21,7 +20,7 @@ function BalanceDisplay({ account }) {
 
     loadBalance();
     
-    // Opsional: Refresh saldo setiap 15 detik
+    
     const interval = setInterval(loadBalance, 15000);
     return () => clearInterval(interval);
   }, [account]);

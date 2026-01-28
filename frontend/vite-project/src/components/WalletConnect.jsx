@@ -14,19 +14,14 @@ function WalletConnect({ setAccount }) {
       }
 
       const provider = new ethers.BrowserProvider(window.ethereum);
-
-      // request account access
       await provider.send("eth_requestAccounts", []);
-
       const signer = await provider.getSigner();
       const userAddress = await signer.getAddress();
-
-      // ambil balance
       const balanceWei = await provider.getBalance(userAddress);
       const balanceEth = ethers.formatEther(balanceWei);
 
       setAddress(userAddress);
-      setBalance(Number(balanceEth).toFixed(4)); // biar rapi
+      setBalance(Number(balanceEth).toFixed(4)); 
       setAccount(userAddress);
       setConnected(true);
     } catch (err) {

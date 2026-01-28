@@ -1,20 +1,20 @@
 # 🌐 Web Donasi Blockchain
 
-Aplikasi **Web Donasi Blockchain** adalah aplikasi full-stack berbasis Web3 yang memungkinkan pengguna melakukan donasi ETH melalui **MetaMask**, menyimpan data donasi ke **database (Supabase)**, serta menampilkan riwayat transaksi secara real-time.
-Aplikasi ini menggunakan **React (Vite)** di frontend, **Express.js** di backend, dan **Ethereum Sepolia Testnet** sebagai jaringan blockchain.
+Aplikasi Web Donasi Blockchain adalah aplikasi full-stack berbasis Web3 yang memungkinkan pengguna melakukan donasi ETH melalui MetaMask, menyimpan data donasi ke database (Supabase), serta menampilkan riwayat transaksi secara real-time.
+teknoloig yang saya gunankan disini adalah frontend React (vite), backend express.js, database nya saya menggunakan supabase dan ethereum sepolia testnet sebagain jaringan ke blokchain
 
----
 
-## 🎯 Tujuan Proyek
+
+## Tujuan Proyek
 
 * Mengimplementasikan aplikasi **full-stack Web3**
 * Integrasi **frontend, backend, database, dan blockchain**
 * Menghubungkan wallet **MetaMask**
 * Melakukan transaksi melalui **smart contract**
 
----
 
-## 🧩 Teknologi yang Digunakan
+
+## Teknologi yang Digunakan
 
 ### Frontend
 
@@ -37,11 +37,10 @@ Aplikasi ini menggunakan **React (Vite)** di frontend, **Express.js** di backend
 * MetaMask
 * Remix IDE
 
----
 
-## 📁 Struktur Proyek
 
-```
+##  Struktur Proyek
+
 web3-dapp-uas/
 ├─ frontend/
 │  ├─ src/
@@ -68,13 +67,12 @@ web3-dapp-uas/
 │  └─ DonationContract.sol
 │
 └─ README.md
-```
 
----
 
-## 📜 Smart Contract
 
-Smart contract ditulis menggunakan **Solidity** dan memiliki fungsi utama:
+## Smart Contract
+
+Smart contract ditulis menggunakan Solidity dan memiliki fungsi utama:
 
 * `donate()` → menerima ETH dari pengguna
 * `getDonations()` → membaca data donasi
@@ -82,68 +80,68 @@ Smart contract ditulis menggunakan **Solidity** dan memiliki fungsi utama:
 
 Kontrak di-deploy pada **Ethereum Sepolia Testnet**.
 
----
 
-## ⚙️ Cara Menjalankan Aplikasi
+
+##  Cara Menjalankan Aplikasi
 
 ### 1️⃣ Prasyarat
 
 * Node.js (LTS)
-* MetaMask (network: Sepolia)
-* Saldo ETH Sepolia (dari faucet)
+* ada MetaMask di browser nya
+* punya minimal 0,001 Saldo ETH Sepolia 
 
----
 
-### 2️⃣ Jalankan Backend
 
-```bash
+### 2️ Jalankan Backend
+
+bash
 cd backend
 npm install
 npm start
-```
+
 
 Backend berjalan di:
 
-```
+
 http://localhost:5000
-```
+
 
 Endpoint:
 
 * `GET /api/transactions`
 * `POST /api/donate`
 
----
 
-### 3️⃣ Jalankan Frontend
 
-```bash
+###  Jalankan Frontend
+
+bash
 cd frontend
 npm install
 npm run dev
-```
+
 
 Frontend berjalan di:
 
-```
+
 http://localhost:5173
-```
 
----
 
-## 🚀 Cara Menggunakan Aplikasi
+
+
+## Cara Menggunakan Aplikasi
 
 1. Buka aplikasi di browser
-2. Klik **Connect MetaMask**
-3. Pastikan network **Sepolia**
+2. Klik Connect MetaMask
+3. Pastikan network Sepolia
 4. Masukkan jumlah ETH (contoh: `0.001`)
-5. Klik **Donasi**
+5. Klik Donasi
 6. Konfirmasi transaksi di MetaMask
-7. Donasi akan langsung muncul di **Daftar Donasi**
+7. Donasi akan langsung muncul di Daftar Donasi
 
----
 
-## ✅ Fitur Utama
+
+## Fitur Utama
 
 * ✔ Koneksi MetaMask
 * ✔ Menampilkan saldo wallet
@@ -153,29 +151,23 @@ http://localhost:5173
 * ✔ Link transaksi ke Etherscan
 * ✔ Responsive (desktop & mobile)
 
----
 
-## 🧪 Pengujian
+
+## Pengujian
 
 * Transaksi berhasil dikirim di Sepolia Testnet
 * Data donasi tersimpan di Supabase
 * Riwayat donasi tampil real-time di frontend
 * Error handling berjalan dengan baik
 
----
 
-## 📌 Catatan
 
-Aplikasi ini dibuat untuk keperluan **Ujian Akhir Semester / Praktikum Web3** dan dijalankan pada **testnet**, sehingga tidak menggunakan ETH asli.
 
----
-
-## 👤 Author
 
 Nama: **(MOH NURUL LANJIB)**
 NIM: **(241111042)**
 Mata Kuliah: **Web3 / Blockchain Development**
 
----
+
 
 

@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// pakai routes
+
 app.use("/api", transactionRoutes);
 
 const PORT = 5000;
