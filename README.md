@@ -100,7 +100,7 @@ teknoloig yang saya gunankan disini adalah frontend React (vite), backend expres
     * memanggil smart contract
 
     TransactionList.jsx
-    * menampilkan histori donasi yang menggambil data dari supa base
+    * menampilkan histori donasi yang menggambil data dari supabase
 
     App.jsx
     * untuk menggabungin semua componen
